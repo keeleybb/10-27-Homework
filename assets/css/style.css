@@ -101,8 +101,19 @@ nav {
     margin: 10px 0px;
 }
 
+/*
 section {
     background: #fff;
+    width: 960px;
+    padding: 20px;  
+    overflow: auto;
+    margin: 40px auto !important;
+    border: 1px solid #ddd;
+}
+*/
+
+.main-con {
+    background: blueviolet;
     width: 960px;
     padding: 20px;  
     overflow: auto;

@@ -108,7 +108,7 @@ section {
 .main-con {
     background: #fff;
     width: 920px;
-    padding: 20px;  
+    padding: 0px 20px;  
     overflow: auto;
     margin: 40px auto !important;
     border: 1px solid #ddd;

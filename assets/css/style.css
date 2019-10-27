@@ -13,7 +13,6 @@ body {
 
 #wrapper {
     min-height: calc(100vh - 60px);
-
 }
 
 h1, h2, h3 {
@@ -95,7 +94,7 @@ nav {
 
 .line {
     height: 1px;
-    color: ##ccc;
+    color: #ccc;
     background-color: #ccc;
     border: none;
     margin: 10px 0px;
@@ -103,11 +102,12 @@ nav {
 
 
 section {
+
 }
 
 .main-con {
     background: #fff;
-    width: 1000px;
+    width: 960px;
     padding: 20px;  
     overflow: auto;
     margin: 40px auto !important;
@@ -126,7 +126,7 @@ section {
 
 .portfolio-item {
     position: relative;
-    display: inline-block; /* Make the width of box same as image */
+    display: inline-block; 
     float: left;
 }
 
@@ -140,9 +140,9 @@ section {
     margin: 0 auto;
     left: 0;
     right: 0;
-    top: 60%; /* Adjust this value to move the positioned div up and down */
+    top: 60%; /* Moves the text box up and down */
     text-align: center;
-    width: 280px; /* Set the width of the positioned div */
+    width: 280px; /* width of the text box */
     background-color: #4aaaa5;
     color: #fff;
     padding: 10px 0px;
